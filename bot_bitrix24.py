@@ -345,4 +345,4 @@ def send_button_to_bitrix(chat_id, bot_id, auth_app_token):
 
 # Запуск сервера
 if __name__ == "__main__":
-    uvicorn.run(app, host="192.168.0.110", port=5000)
+    uvicorn.run(app, host="localhost", port=5000)
